@@ -26,7 +26,7 @@ function enviarFormulario(event) {
     event.preventDefault(); // Prevenir el comportamiento predeterminado del formulario de recargar la pagina
 
     const nombreUsuario = ultimoValor;
-    alert(`Hola, somos cerebrito es un gusto ${nombreUsuario}`)
+    alert(`Hola, somos Cerebritos Team es un gusto ${nombreUsuario}`)
 }
 
 
