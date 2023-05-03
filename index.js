@@ -28,7 +28,7 @@ function enviarFormulario(event) {
     const nombreUsuario = ultimoValor;
     alert(`Hola, somos Cerebritos Team es un gusto ${nombreUsuario}`)
 }
-
+alert("holiiii")
 
 
 
