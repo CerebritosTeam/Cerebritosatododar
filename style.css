@@ -65,7 +65,17 @@ form button {
 form button:hover{
   background-color: #ffbdf4;
 }
-
+#img-divinas{
+  display: none;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#img-divinas img{
+  height: 500px;
+  width: 500px;
+}
 .texto-final-p {
   color: #464444;
   font-size: 12px;
@@ -113,5 +123,9 @@ margin-top: 20px;
 }
 .cuentas:hover{
   background-color: #ededed;
+}
+#video{
+  height: 600px;
+  width: 700px;
 }
 
