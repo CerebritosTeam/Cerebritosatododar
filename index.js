@@ -40,6 +40,7 @@ function boton() {
     rechazado.style.display = "flex";
     setTimeout(function () {
       rechazado.style.display = "none";
-    }, 2000);
+    }, 4000);
   }
 }
+console.log("Hola cerebritos")
