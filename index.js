@@ -27,19 +27,38 @@ function enviarFormulario(event) {
 function boton() {
   let usuario = document.getElementById("Usuario").value;
   let contraseña = document.getElementById("Contraseña").value;
-  if (usuario === "Cerciber@gmail.com" && contraseña === "AmoaDenis") {
-    window.location.href = "inicio-cerebritos.html";
-  } else if (usuario === "Heaven@gmail.com" && contraseña === "Ruloesminovio") {
-    window.location.href = "inicio-cerebritos.html";
-  } else if (usuario === "Rulo@gmail.com" && contraseña === "Heavenesminovia") {
-    window.location.href = "inicio-cerebritos.html";
-  } else if (usuario === "Denisolo@gmail.com" && contraseña === "AmoaCesar") {
-    window.location.href = "inicio-cerebritos.html";
-  } else {
-    var rechazado = document.getElementById("img-divinas");
-    rechazado.style.display = "flex";
-    setTimeout(function () {
-      rechazado.style.display = "none";
-    }, 2000);
+
+  switch (usuario) {
+    case "Cerciber@gmail.com":
+      if (contraseña === "AmoaDenis") {
+        window.location.href = "inicio-cerebritos.html";
+        return;
+      }
+      break;
+    case "Heaven@gmail.com":
+      if (contraseña === "Ruloesminovio") {
+        window.location.href = "inicio-cerebritos.html";
+        return;
+      }
+      break;
+    case "Rulo@gmail.com":
+      if (contraseña === "Heavenesminovia") {
+        window.location.href = "inicio-cerebritos.html";
+        return;
+      }
+      break;
+    case "Denisolo@gmail.com":
+      if (contraseña === "AmoaCesar") {
+        window.location.href = "inicio-cerebritos.html";
+        return;
+      }
+      break;
   }
+
+  var rechazado = document.getElementById("img-divinas");
+  rechazado.style.display = "flex";
+  setTimeout(function () {
+    rechazado.style.display = "none";
+  }, 4000);
 }
+
