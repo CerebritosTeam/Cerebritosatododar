@@ -61,4 +61,3 @@ function boton() {
     rechazado.style.display = "none";
   }, 4000);
 }
-
